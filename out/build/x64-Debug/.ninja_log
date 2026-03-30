@@ -1,0 +1,14 @@
+# ninja log v6
+69	147	7965837432888973	CMakeFiles/CalculatorApp_autogen	8601bdd1726dfab0
+2233	2297	7965836919552230	CalculatorApp_autogen/EWIEGA46WW/qrc_Calculator.cpp	bb22e4041c076d50
+69	147	7965837432888973	CalculatorApp_autogen/mocs_compilation.cpp	8601bdd1726dfab0
+69	147	7965837432888973	CalculatorApp_autogen/include/ui_Calculator.h	8601bdd1726dfab0
+2312	2369	7965836919863598	CMakeFiles/CalculatorApp.dir/CalculatorApp_autogen/EWIEGA46WW/qrc_Calculator.cpp.obj	57a94ae83210cb37
+69	147	7965837432888973	C:/Users/ksyus/МАИ/ТРПО/Calculator/GitCalc/Calculator/out/build/x64-Debug/CMakeFiles/CalculatorApp_autogen	8601bdd1726dfab0
+2233	2297	7965836919552230	C:/Users/ksyus/МАИ/ТРПО/Calculator/GitCalc/Calculator/out/build/x64-Debug/CalculatorApp_autogen/EWIEGA46WW/qrc_Calculator.cpp	bb22e4041c076d50
+69	147	7965837432888973	C:/Users/ksyus/МАИ/ТРПО/Calculator/GitCalc/Calculator/out/build/x64-Debug/CalculatorApp_autogen/include/ui_Calculator.h	8601bdd1726dfab0
+69	147	7965837432888973	C:/Users/ksyus/МАИ/ТРПО/Calculator/GitCalc/Calculator/out/build/x64-Debug/CalculatorApp_autogen/mocs_compilation.cpp	8601bdd1726dfab0
+2297	3045	7965836919707315	CMakeFiles/CalculatorApp.dir/CalculatorApp_autogen/mocs_compilation.cpp.obj	4edcf2ed1090eac5
+2300	3050	7965836919707315	CMakeFiles/CalculatorApp.dir/main.cpp.obj	11b0a2a40e743a2d
+2306	3133	7965836919707315	CMakeFiles/CalculatorApp.dir/Calculator.cpp.obj	5bb2f613e273aaa6
+3133	4085	7965836927996493	bin/CalculatorApp.exe	ab44c4710f6a41b2

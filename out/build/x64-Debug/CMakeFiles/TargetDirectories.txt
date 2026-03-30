@@ -1,0 +1,4 @@
+C:/Users/ksyus/МАИ/ТРПО/Calculator/GitCalc/Calculator/out/build/x64-Debug/CMakeFiles/CalculatorApp.dir
+C:/Users/ksyus/МАИ/ТРПО/Calculator/GitCalc/Calculator/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/ksyus/МАИ/ТРПО/Calculator/GitCalc/Calculator/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/ksyus/МАИ/ТРПО/Calculator/GitCalc/Calculator/out/build/x64-Debug/CMakeFiles/CalculatorApp_autogen.dir

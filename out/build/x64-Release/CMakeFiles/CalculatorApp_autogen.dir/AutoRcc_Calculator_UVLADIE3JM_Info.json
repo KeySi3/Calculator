@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "C:/Users/ksyus/\u041c\u0410\u0418/\u0422\u0420\u041f\u041e/Calculator/GitCalc/Calculator/out/build/x64-Release/CalculatorApp_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/ksyus/\u041c\u0410\u0418/\u0422\u0420\u041f\u041e/Calculator/GitCalc/Calculator/out/build/x64-Release",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/ksyus/\u041c\u0410\u0418/\u0422\u0420\u041f\u041e/Calculator/GitCalc/Calculator/out/build/x64-Release",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/ksyus/\u041c\u0410\u0418/\u0422\u0420\u041f\u041e/Calculator/GitCalc/Calculator",
+	"CMAKE_SOURCE_DIR" : "C:/Users/ksyus/\u041c\u0410\u0418/\u0422\u0420\u041f\u041e/Calculator/GitCalc/Calculator",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "C:/Users/ksyus/\u041c\u0410\u0418/\u0422\u0420\u041f\u041e/Calculator/GitCalc/Calculator/out/build/x64-Release/CalculatorApp_autogen/include",
+	"INPUTS" : [],
+	"LOCK_FILE" : "C:/Users/ksyus/\u041c\u0410\u0418/\u0422\u0420\u041f\u041e/Calculator/GitCalc/Calculator/out/build/x64-Release/CMakeFiles/CalculatorApp_autogen.dir/AutoRcc_Calculator_UVLADIE3JM_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "Calculator" ],
+	"OUTPUT_CHECKSUM" : "UVLADIE3JM",
+	"OUTPUT_NAME" : "qrc_Calculator.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/Qt5.14.2/5.14.2/msvc2017_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/ksyus/\u041c\u0410\u0418/\u0422\u0420\u041f\u041e/Calculator/GitCalc/Calculator/out/build/x64-Release/CMakeFiles/CalculatorApp_autogen.dir/AutoRcc_Calculator_UVLADIE3JM_Used.txt",
+	"SOURCE" : "C:/Users/ksyus/\u041c\u0410\u0418/\u0422\u0420\u041f\u041e/Calculator/GitCalc/Calculator/src/Calculator.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}
