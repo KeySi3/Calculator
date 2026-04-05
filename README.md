@@ -55,4 +55,35 @@
 
 3. Максимальная точность выводимых чисел: 6 знаков после запятой.
 
+# Клонирование и сборка
 
+## 1. Клонирование репозитория
+
+```bash
+git clone https://github.com/KeySi3/Calculator.git
+cd CalculatorApp
+```
+
+## 2. Сборка проекта
+
+```bash
+mkdir build && cd build
+cmake ..
+cmake --build .
+```
+
+## 3. Запуск приложения
+
+```bash
+# Linux / macOS
+./CalculatorApp
+
+# Windows
+CalculatorApp.exe
+```
+
+<p align="center">
+  <img src="src/calculator_preview.png" alt="Интерфейс калькулятора" width="400">
+  <br>
+  <em>Внешний вид приложения</em>
+</p>
