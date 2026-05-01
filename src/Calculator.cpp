@@ -61,7 +61,7 @@ Calculator::~Calculator()
 {}
 
 
-// Функция разбора строки с выражением
+// Метод разбора строки с выражением
 void Calculator::parsing(string s) {
     // Перебрать все элементы строки
     for (int i = 0; i < s.size(); i++) {
@@ -70,7 +70,7 @@ void Calculator::parsing(string s) {
         if (numbers.find(charact) != string::npos) {
             bool findflag = true;
             string word = "";
-            // Если первый симво числа - разделитель, добавить 0
+            // Если первый символ числа - разделитель, добавить 0
             if (s[i] == '.') word += "0";
             // Считать все число
             while (findflag) {
@@ -98,7 +98,7 @@ void Calculator::parsing(string s) {
 }
 
 
-// Функция рассчета значения выражения
+// Метод расчета значения выражения
 float Calculator::evaluate(vector<string> vec, int n) {
     if (vecExp.empty()) return 1.0;
     // Если первый символ в векторе - оператор, учесть знак в первом числе
@@ -204,7 +204,7 @@ float Calculator::evaluate(vector<string> vec, int n) {
 }
 
 
-// Функция вычислисления бинарных операторов
+// Метод вычислисления бинарных операторов
 float Calculator::evaluate_numbers(float a, float b, char op) {
     if (op == '+') a = a + b;
     else if (op == '-') a = a - b;
@@ -224,7 +224,7 @@ float Calculator::evaluate_numbers(float a, float b, char op) {
 }
 
 
-// Функция расчета значений математических функций 
+// Метод расчета значений математических функций 
 float Calculator::evaluate_numbers(float a, char op) {
     // Перевести градусы в радианы
     if (toggleAction->isChecked()) {
@@ -238,7 +238,7 @@ float Calculator::evaluate_numbers(float a, char op) {
 }
 
 
-// Добавить цифру
+// Метод добавления цифры
 void Calculator::addNumSymbol() {
     // Определить, от какой кнопки поступил сигнал
     QPushButton* btn = qobject_cast<QPushButton*>(sender());
@@ -279,7 +279,7 @@ void Calculator::addNumSymbol() {
 }
 
 
-// Функция добавления символов плюч и минус
+// Метод добавления символов плюс и минус
 void Calculator::addPlusMinusSymbol()
 {
     // Определить, от какой кнопки поступил сигнал
@@ -296,7 +296,7 @@ void Calculator::addPlusMinusSymbol()
     }
 }
 
-// Функция добавления символа оператора
+// Метод добавления символа оператора
 void Calculator::addOpSymbol()
 {
     // Определить, от какой кнопки поступил сигнал
@@ -316,13 +316,13 @@ void Calculator::addOpSymbol()
 }
 
 
-// Функция добавления математической функции
+// Метод добавления математической функции
 void Calculator::addFuncSymbol()
 {
     // Определить, от какой кнопки поступил сигнал
     QPushButton* btn = qobject_cast<QPushButton*>(sender());
     int a = exp.length() - 1;
-    // Нельзя вставить мат. функцию, если предыдущий символ - число, разделитель или закрывающаяся скобка
+    // Нельзя вставить мат. функцию, если предыдущий символ - число или закрывающаяся скобка
     if (exp.length() != 0)
         if (numbers.find(exp[exp.length() - 1]) != string::npos || exp[exp.length() - 1] == ')')
             return;
@@ -343,7 +343,7 @@ void Calculator::addFuncSymbol()
 }
 
 
-// Функция добавления скобки
+// Метод добавления скобки
 void Calculator::addBracketSymbol()
 {
     // В начале выражения - добавить открывающуюся скобку
@@ -353,7 +353,7 @@ void Calculator::addBracketSymbol()
     }
     else {
         string openbr = "(";
-        // Если предыдущий символ - не оепратор или не открывающаяся скобка и не разделитель
+        // Если предыдущий символ - не оператор или не открывающаяся скобка и не разделитель
         if ((operators.find(exp[exp.length() - 1]) != string::npos || openbr.find(exp[exp.length() - 1]) != string::npos) && exp[exp.length() - 1] != '.') {
             exp += "(";
             numBrackets++;
@@ -371,7 +371,7 @@ void Calculator::addBracketSymbol()
 }
 
 
-// Функция добавления разделителя
+// Метод добавления разделителя
 void Calculator::addDotSymbol()
 {
     // Определить, от какой кнопки поступил сигнал
@@ -408,7 +408,7 @@ void Calculator::addDotSymbol()
 }
 
 
-// Функция удаления выражения
+// Метод удаления выражения
 void Calculator::clearAll()
 {
     exp = "";
@@ -417,7 +417,7 @@ void Calculator::clearAll()
 }
 
 
-// Функция удаления символа
+// Метод удаления символа
 void Calculator::deleteSymbol()
 {
     if (exp.length() == 0) return;
@@ -451,7 +451,7 @@ void Calculator::deleteSymbol()
 }
 
 
-// Функция решения выражения
+// Метод решения выражения
 void Calculator::solve()
 {
     // Проверить сбалансированность скобок
@@ -494,7 +494,7 @@ void Calculator::solve()
 }
 
 
-// Функция установки быстрых клавиш
+// Метод установки быстрых клавиш
 void Calculator::setupShortcuts()
 {
     QList<int> numberKeys = {

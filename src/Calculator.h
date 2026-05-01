@@ -1,17 +1,11 @@
 #pragma once
-
-#include <iostream>
-
 #include <QtWidgets/QMainWindow>
 #include <vector>
 #include <string>
 #include <cmath>
 #include <qmessagebox.h>
-#include <qdebug.h>
 #include <qshortcut.h>
-#include <qkeyeventtransition.h>
 #include <qaction.h>
-
 #include "ui_Calculator.h"
 
 using namespace std;
@@ -26,20 +20,20 @@ public:
    
 
 private:
-    void parsing(string s);  // Функция разбора строки с выражением
-    float evaluate(vector<string> vec, int n);  // Функция рассчета значения выражения
-    float evaluate_numbers(float a, float b, char op);  // Функция вычислисления бинарных операторов
-    float evaluate_numbers(float a, char op);  // Функция расчета значений математических функций 
-    void addNumSymbol();  // Добавить цифру
-    void addPlusMinusSymbol();  // Функция добавления символов плюч и минус
-    void addOpSymbol();  // Функция добавления символа оператора
-    void addFuncSymbol();  // Функция добавления математической функции
-    void addBracketSymbol();  // Функция добавления скобки
-    void addDotSymbol();  // Функция добавления разделителя
-    void clearAll();  // Функция удаления выражения
-    void deleteSymbol();  // Функция удаления символа
-    void solve();  // Функция решения выражения
-    void setupShortcuts();  // Функция установки быстрых клавиш
+    void parsing(string s);  // Метод разбора строки с выражением
+    float evaluate(vector<string> vec, int n);  // Метод рассчета значения выражения
+    float evaluate_numbers(float a, float b, char op);  // Метод вычислисления бинарных операторов
+    float evaluate_numbers(float a, char op);  // Метод расчета значений математических функций 
+    void addNumSymbol();  // Метод цифру
+    void addPlusMinusSymbol();  // Метод добавления символов плюч и минус
+    void addOpSymbol();  // Метод добавления символа оператора
+    void addFuncSymbol();  // Метод добавления математической функции
+    void addBracketSymbol();  // Метод добавления скобки
+    void addDotSymbol();  // Метод добавления разделителя
+    void clearAll();  // Метод удаления выражения
+    void deleteSymbol();  // Метод удаления символа
+    void solve();  // Метод решения выражения
+    void setupShortcuts();  // Метод установки быстрых клавиш
     
 
 private:
