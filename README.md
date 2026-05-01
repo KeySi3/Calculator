@@ -83,7 +83,7 @@ CalculatorApp.exe
 ```
 
 <p align="center">
-  <img src="src/calculator_preview.png" alt="Интерфейс калькулятора" width="400">
+  <img src="src/calculator_preview_v2.png" alt="Интерфейс калькулятора" width="400">
   <br>
   <em>Внешний вид приложения</em>
 </p>
