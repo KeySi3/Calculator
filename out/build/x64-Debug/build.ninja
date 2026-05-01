@@ -93,10 +93,10 @@ build CMakeFiles\CalculatorApp.dir\CalculatorApp_autogen\UVLADIE3JM\qrc_Calculat
 #############################################
 # Link the executable bin\CalculatorApp.exe
 
-build bin\CalculatorApp.exe: CXX_EXECUTABLE_LINKER__CalculatorApp_Debug CMakeFiles\CalculatorApp.dir\CalculatorApp_autogen\mocs_compilation.cpp.obj CMakeFiles\CalculatorApp.dir\src\main.cpp.obj CMakeFiles\CalculatorApp.dir\src\Calculator.cpp.obj CMakeFiles\CalculatorApp.dir\CalculatorApp_autogen\UVLADIE3JM\qrc_Calculator.cpp.obj | C$:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Widgetsd.lib C$:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Guid.lib C$:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Cored.lib || CalculatorApp_autogen
+build bin\CalculatorApp.exe: CXX_EXECUTABLE_LINKER__CalculatorApp_Debug CMakeFiles\CalculatorApp.dir\CalculatorApp_autogen\mocs_compilation.cpp.obj CMakeFiles\CalculatorApp.dir\src\main.cpp.obj CMakeFiles\CalculatorApp.dir\src\Calculator.cpp.obj CMakeFiles\CalculatorApp.dir\CalculatorApp_autogen\UVLADIE3JM\qrc_Calculator.cpp.obj | C$:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Widgetsd.lib C$:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Guid.lib C$:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Cored.lib C$:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\qtmaind.lib || CalculatorApp_autogen
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = C:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Widgetsd.lib  C:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Guid.lib  C:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Cored.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:windows
+  LINK_LIBRARIES = C:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Widgetsd.lib  C:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Guid.lib  C:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Cored.lib  C:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\qtmaind.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = CMakeFiles\CalculatorApp.dir
   POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ksyus\МАИ\ТРПО\Calculator\GitCalc\Calculator\out\build\x64-Debug && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/ksyus/МАИ/ТРПО/Calculator/GitCalc/Calculator/out/build/x64-Debug/bin/CalculatorApp.exe -installedDir C:/vcpkg/installed/x64-windows/debug/bin -OutVariable out"
   PRE_LINK = cd .
