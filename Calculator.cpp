@@ -29,6 +29,17 @@ Calculator::Calculator(QWidget *parent)
     connect(ui.pushButton_22, &QPushButton::clicked, this, &Calculator::deleteSymbol);
 
     ui.lineEdit->setText("0");
+
+
+    m_shortcut = new QShortcut(QKeySequence(Qt::Key_1), this);
+    m_shortcut->setContext(Qt::ApplicationShortcut);
+    connect(m_shortcut, &QShortcut::activated, this, [this]() {
+        qDebug() << "Shortcut activated!";
+        ui->pushButton_3->click();
+        });
+
+    cout << "1";
+    
 }
 
 Calculator::~Calculator()

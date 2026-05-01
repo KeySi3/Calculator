@@ -6,7 +6,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "out/build/x64-Debug/CMakeFiles/3.31.6-msvc6/CMakeSystem.cmake"
+			"path" : "out/build/x64-Release/CMakeFiles/3.31.6-msvc6/CMakeSystem.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -29,7 +29,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "out/build/x64-Debug/CMakeFiles/3.31.6-msvc6/CMakeCXXCompiler.cmake"
+			"path" : "out/build/x64-Release/CMakeFiles/3.31.6-msvc6/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -93,7 +93,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "out/build/x64-Debug/CMakeFiles/3.31.6-msvc6/CMakeRCCompiler.cmake"
+			"path" : "out/build/x64-Release/CMakeFiles/3.31.6-msvc6/CMakeRCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -280,13 +280,21 @@
 			"path" : "C:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake"
 		},
 		{
-			"path" : "Calculator.qrc"
+			"isExternal" : true,
+			"path" : "C:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake"
+		},
+		{
+			"path" : "src/Calculator.qrc"
 		}
 	],
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/ksyus/\u041c\u0410\u0418/\u0422\u0420\u041f\u041e/Calculator/GitCalc/Calculator/out/build/x64-Debug",
+		"build" : "C:/Users/ksyus/\u041c\u0410\u0418/\u0422\u0420\u041f\u041e/Calculator/GitCalc/Calculator/out/build/x64-Release",
 		"source" : "C:/Users/ksyus/\u041c\u0410\u0418/\u0422\u0420\u041f\u041e/Calculator/GitCalc/Calculator"
 	},
 	"version" : 

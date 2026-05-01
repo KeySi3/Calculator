@@ -69,8 +69,8 @@ if(WIN32 AND NOT CMAKE_BUILD_TYPE STREQUAL "Debug")
 endif()
 
 
-if(WIN32) # Отмена запуска консоли
-    set_target_properties(${PROJECT_NAME} PROPERTIES
-        WIN32_EXECUTABLE TRUE
-    )
-endif()
+#if(WIN32) # Отмена запуска консоли
+ #   set_target_properties(${PROJECT_NAME} PROPERTIES
+  #      WIN32_EXECUTABLE TRUE
+   # )
+#endif()

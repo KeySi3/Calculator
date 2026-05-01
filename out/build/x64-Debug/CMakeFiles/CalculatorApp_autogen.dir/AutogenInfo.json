@@ -71,7 +71,9 @@
 		"C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeParseArguments.cmake",
 		"C:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
 		"C:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
-		"C:/Users/ksyus/\u041c\u0410\u0418/\u0422\u0420\u041f\u041e/Calculator/GitCalc/Calculator/Calculator.qrc"
+		"C:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"C:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"C:/Users/ksyus/\u041c\u0410\u0418/\u0422\u0420\u041f\u041e/Calculator/GitCalc/Calculator/src/Calculator.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/ksyus/\u041c\u0410\u0418/\u0422\u0420\u041f\u041e/Calculator/GitCalc/Calculator",
 	"CROSS_CONFIG" : false,
@@ -80,9 +82,9 @@
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/ksyus/\u041c\u0410\u0418/\u0422\u0420\u041f\u041e/Calculator/GitCalc/Calculator/Calculator.h",
+			"C:/Users/ksyus/\u041c\u0410\u0418/\u0422\u0420\u041f\u041e/Calculator/GitCalc/Calculator/src/Calculator.h",
 			"MU",
-			"EWIEGA46WW/moc_Calculator.cpp",
+			"UVLADIE3JM/moc_Calculator.cpp",
 			null
 		]
 	],
@@ -124,12 +126,12 @@
 	"SOURCES" : 
 	[
 		[
-			"C:/Users/ksyus/\u041c\u0410\u0418/\u0422\u0420\u041f\u041e/Calculator/GitCalc/Calculator/Calculator.cpp",
+			"C:/Users/ksyus/\u041c\u0410\u0418/\u0422\u0420\u041f\u041e/Calculator/GitCalc/Calculator/src/Calculator.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/ksyus/\u041c\u0410\u0418/\u0422\u0420\u041f\u041e/Calculator/GitCalc/Calculator/main.cpp",
+			"C:/Users/ksyus/\u041c\u0410\u0418/\u0422\u0420\u041f\u041e/Calculator/GitCalc/Calculator/src/main.cpp",
 			"MU",
 			null
 		]

@@ -63,8 +63,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/ksyus/\u041c\u0410\u0418/\u0422\u0420\u041f\u041e/Calculator/GitCalc/Calculator/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-m3irim"
-      binary: "C:/Users/ksyus/\u041c\u0410\u0418/\u0422\u0420\u041f\u041e/Calculator/GitCalc/Calculator/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-m3irim"
+      source: "C:/Users/ksyus/\u041c\u0410\u0418/\u0422\u0420\u041f\u041e/Calculator/GitCalc/Calculator/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-8quud0"
+      binary: "C:/Users/ksyus/\u041c\u0410\u0418/\u0422\u0420\u041f\u041e/Calculator/GitCalc/Calculator/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-8quud0"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -78,11 +78,11 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ksyus/МАИ/ТРПО/Calculator/GitCalc/Calculator/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-m3irim'
+        Change Dir: 'C:/Users/ksyus/МАИ/ТРПО/Calculator/GitCalc/Calculator/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-8quud0'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_826bc
-        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\PROFES~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_826bc.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_826bc.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_826bc.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\PROFES~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_826bc.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_826bc.exe /implib:cmTC_826bc.lib /pdb:cmTC_826bc.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_71aed
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\PROFES~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_71aed.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_71aed.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_71aed.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\PROFES~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_71aed.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_71aed.exe /implib:cmTC_71aed.lib /pdb:cmTC_71aed.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
